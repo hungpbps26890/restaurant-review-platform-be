@@ -11,7 +11,7 @@ import org.springframework.data.elasticsearch.annotations.FieldType;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class OperationHours {
+public class OperatingHours {
 
     @Field(type = FieldType.Nested)
     private TimeRange monday;
